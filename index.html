@@ -300,15 +300,23 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
     </div>
 
     <div class="why-tile">
-      <div class="why-key">24h / 9h</div>
-      <div class="why-label">連続勤務後インターバル</div>
-      <div class="why-desc">通常勤務・許可ある宿日直後は<strong>始業から24時間以内に9時間の継続休息</strong>。A水準は努力義務、B/C水準は義務。</div>
+      <div class="why-key">9h / 18h</div>
+      <div class="why-label">勤務間インターバル<br>― 宿日直許可の有無で変わる</div>
+      <div class="why-desc">
+        <strong>宿日直許可あり</strong>(=Aクラスの管理当直)→ 当直明けは<strong>9時間</strong>の継続休息でOK。<br>
+        <strong>宿日直許可なし</strong>(=CVCU当直)→ 当直明けは<strong>18時間</strong>の継続休息が必要(始業から46時間以内に確保)。<br>
+        当院CVCU当直は許可未取得のため18h側が適用 → <strong>12時帰宅運用の実務的根拠</strong>。A水準は努力義務、連携B/B/C水準は義務。
+      </div>
     </div>
 
     <div class="why-tile">
-      <div class="why-key">2026.06.01</div>
-      <div class="why-label">診療報酬改定 本体施行</div>
-      <div class="why-desc"><strong>地域医療体制確保加算2 新設 (720点)</strong>。時間外労働実績要件が <strong>1,635h以下</strong> に引下げ(2027年度1,560h以下)。働き方改革の達成度が病院収入に直結。</div>
+      <div class="why-key">2026.06.01〜</div>
+      <div class="why-label">診療報酬改定 本体施行<br>― 加算が病院収入を左右</div>
+      <div class="why-desc">
+        <strong>地域医療体制確保加算2 新設 (720点 / 入院初日)</strong> を2026年6月1日から算定開始。<br>
+        算定要件: <strong>年間時間外労働 1,635h以下</strong>(2026年度) → <strong>1,560h以下</strong>(2027年度〜)。<br>
+        当院規模の入院件数では<strong>数千万円規模の収入差</strong>が生じうる。働き方改革の達成度=病院経営に直結。
+      </div>
     </div>
 
     <div class="why-tile">
@@ -386,11 +394,7 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
         当直医(ファースト)に加えてセカンドが緊急手術に入った場合、<strong>翌日は両者とも12時帰宅</strong>を原則とする。
         <ul>
           <li>セカンドが「やる気があるから残る」は不可。<strong>本人が帰りたがらなくても手配師が強制帰宅</strong>。</li>
-          <li>「自宅で痛吻合の練習でもしておけ」というメッセージで送り出す。</li>
         </ul>
-        <div class="d-meta">
-          <span><strong>背景:</strong> 浜ちゃんを筆頭に「居たら全部自分でやってしまう」文化を断つ</span>
-        </div>
       </div>
     </div>
 
@@ -401,7 +405,7 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
         <strong>緊急手術で疲弊度の高い方を優先帰宅</strong>し、もう片方は残留する運用を許容する。
         <ul>
           <li>これは「ベストではないがファースト+セカンド両帰宅で病棟が崩れるよりはマシ」の妥協ライン。</li>
-          <li>恒常運用ではない。中長期的には<strong>小児チームからの応援</strong>等で2人帰宅を成立させる方向。</li>
+          <li>恒常運用ではない。</li>
         </ul>
         <div class="d-meta">
           <span><strong>判断:</strong> 手配師 + 執刀医 (Aクラス)</span>
@@ -414,11 +418,6 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
       <div class="d-body">
         12時に帰宅したらドクタージョイ上で<strong>退勤申請を自分で行う</strong>こと。
         「持って帰っているだけで時間が積み上がる」を防ぐ。
-        <ul>
-          <li>消化器外科でかつて行われたとされる「ドクタージョイを科で集めて金属箱に保管」のような
-              <strong>不正運用は絶対にやらない</strong> — 内部告発リスクが極めて高い。</li>
-          <li>正々堂々と、実態に即した打刻でいく。</li>
-        </ul>
       </div>
     </div>
 
@@ -442,7 +441,7 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
         現状はB+C両方が入っているケースが多いが、必要なのは1人で十分。
         <ul>
           <li>サフェナ採取や最初のポンプ乗せなどCクラス一人では難しい局面は、<strong>AクラスがB/Cの代わりに補助</strong>。</li>
-          <li>結果として術中6人体制になっているのを<strong>2〜3人体制</strong>へ。</li>
+          <li>術中に6人程度が手術に入っていることがあるが、こういった状況を避け<strong>2〜3人体制</strong>へ。</li>
           <li>外していない方のB/Cは病棟業務に張り付き、カンファシート作成・術前資料作成等を日中に終わらせる。</li>
         </ul>
       </div>
@@ -614,7 +613,7 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
         <strong>入院時セットに同梱</strong>して入院時に一括して交付し、説明は<strong>QRコード経由の動画</strong>で視聴してもらう運用とする。
         <ul>
           <li>外来または入院時に QR コード付き案内紙を配布。病棟内にも QR コードを掲示し、オプトアウト形式で視聴を案内する。</li>
-          <li>同意書本体への書き込み欄(主治医名・指導医名・IC日付等)は事前にテンプレ化して印字。</li>
+          <li>同意書本体への書き込み欄(主治医名・指導医名・IC日付等)は事前にテンプレ化して印字 → <strong>クラークに記入を依頼</strong>。</li>
           <li>従来 C クラスが1枚ずつ印刷・記名していた業務を、<strong>入院時のクラーク業務として正式に依頼</strong>する。</li>
         </ul>
         <div class="d-meta">
@@ -708,7 +707,7 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
       <div class="d-body">
         現状、麻酔科の局麻症例にも主科が呼ばれる文化があり、Cクラスの手が大きく取られている。
         <ul>
-          <li><strong>明文ルールなのか・現場の慣習(マスタード)なのかを確認</strong>する。</li>
+          <li><strong>明文ルールなのか・現場の慣習なのかを確認</strong>する。</li>
           <li>麻酔科がいるなら麻酔科が責任を持つべき領域があるはず。</li>
         </ul>
         <div class="d-meta">
@@ -800,7 +799,7 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
       <div class="d-title">上級医は <strong>「残るな」「早く帰れ」を声に出す</strong></div>
       <div class="d-body">
         若手が「上級医が残っているから帰りにくい」とは思っていない、というのが会議内の認識。
-        とはいえ上級医側からも<strong>明示的に「強要しない、早く帰れ」を発信</strong>することで安全側に倒す。
+        とはいえ上級医側からも<strong>明示的に「早く帰れ」を発信</strong>することで安全側に倒す。
         <ul>
           <li>残る若手にはピッチを取り上げてでも帰す (§1 と連動)。</li>
         </ul>
@@ -813,17 +812,8 @@ table.deck tbody tr:nth-child(2n) { background:#fafbfd; }
         手配師の運用が変わるとせっかく作った文化が消える、という指摘があった。
         <ul>
           <li>手配師業務 (帰宅指示、手術担当発表、ピッチ預かり等) を<strong>マニュアル化</strong>して引き継ぎ可能に。</li>
-          <li>「万年手配師」状態にせず、ローテーションでも維持できる形にする。</li>
+          <li>ローテーションでも維持できる形にする。</li>
         </ul>
-      </div>
-    </div>
-
-    <div class="decision note">
-      <div class="d-title">6月の医局会で <strong>本決定事項を一括リフレッシュ</strong></div>
-      <div class="d-body">
-        以上の決定事項を医局会で一括提示し、最後の5分で
-        <strong>「これで決まっているからよろしくね」</strong> と全員に再確認をかける。
-        小手先のルール改定にせず、文化レベルで定着させる方針。
       </div>
     </div>
 
